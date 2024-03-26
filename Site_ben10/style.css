@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   max-width: 1400px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+header{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner{
+    margin: 150px, 150px, 0, 150px;
+    text-align: center;
+
+}
+.banner h1{
+    font-size: 100px;
+    font-family: "Kode Mono", monospace;
+    color: greenyellow;
+
+}
+.djgi{
+    text-align: center;
+    font-size: 120px;
+}
+
+.descricao p{
+    text-align: center;
+    padding: 50px 170px 50px 170px;
+
+}
+footer .rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
